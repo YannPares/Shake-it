@@ -3,11 +3,11 @@ import SearchBar from '../../components/searchBar/SearchBar'
 
 type Props = {}
 
-const MainPage = (props: Props) => {
+const Search = (props: Props) => {
   return (
     
     <SearchBar/>
   )
 }
 
-export default MainPage
+export default Search
