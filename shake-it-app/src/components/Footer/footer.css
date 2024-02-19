@@ -1,10 +1,5 @@
-.footer{
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    bottom: 0;
-}
-.credits{
-    display: flex;
-    justify-content: center;
+.footer{  
+    bottom: 0;   
+    position: block;
+   
 }

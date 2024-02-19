@@ -1,0 +1,15 @@
+.main-card{
+    margin: 4vh;
+    width: 60vh;
+    border: 1px solid black;
+}
+
+@media (width >= 680px) {
+    .main-card{
+        margin: 1vh;
+        width: 29vh;
+        border: 1px solid black;
+    }
+
+    
+}

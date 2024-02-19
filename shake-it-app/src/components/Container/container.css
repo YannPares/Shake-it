@@ -1,0 +1,8 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 6vh 3vw 5vh 3vw;
+    border: 1px solid black;
+}

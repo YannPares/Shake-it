@@ -14,12 +14,18 @@ const Header = (props: Props) => {
           height="70"
           className="d-inline-block align-text-top"
         />
-        
+
       </a>
       <nav className='navbar'>
-        <Link to="/search">Search</Link>
-        <Link to="/all">All</Link>
-        <Link to="/add">Add</Link>
+        <span className='navbar-links'>
+          <Link to="/search">Search</Link>
+        </span>
+        <span className='navbar-links'>
+          <Link to="/all">All</Link>        
+          </span>
+        <span className='navbar-links'>
+          <Link to="/add">Add</Link>
+        </span>
       </nav>
     </header>
   )

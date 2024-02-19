@@ -1,5 +1,9 @@
 .app-header{
+    top: 0;
+    position: fixed;
+    width: 100%;
     background-color: antiquewhite;
+   
 }
 .brand-logo{
     display: flex;
@@ -10,9 +14,10 @@
     display: flex;
     justify-content: space-between;
     padding: 1vh;
+    
 }
 
-.navbar>span{
+.navbar-links{
     margin: 0 10%;
 }
 

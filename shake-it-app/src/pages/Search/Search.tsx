@@ -1,12 +1,19 @@
 import React from 'react'
-import SearchBar from '../../components/searchBar/SearchBar'
+import './search.css'
+import SearchBar from '../../components/SearchBar/SearchBar'
+import Container from '../../components/Container/Container'
+
 
 type Props = {}
 
 const Search = (props: Props) => {
   return (
-    
+    <>
+    <main className='page-container'> 
     <SearchBar/>
+    <Container/>
+    </main>
+    </>
   )
 }
 

@@ -1,0 +1,13 @@
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+}
+.search-bar{
+    margin-top: 5vh;
+}
+
+@media ( width >= 680px) {
+    .search-bar{
+    margin-top: 0vh;
+    }
+}

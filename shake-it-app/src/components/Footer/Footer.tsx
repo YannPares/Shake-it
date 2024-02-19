@@ -6,9 +6,9 @@ function Footer() {
   return (
     <footer className='footer'>
         
-        <p className='credits'>
+        <h6 className='credits'>
             &copy; 2024 <span>Made with ❤️ by <a href="https://linkedin.com/in/ian-pares" target="_blank" rel="noreferrer">Yann</a></span>
-        </p>
+        </h6>
     </footer>
   )
 }
