@@ -1,27 +1,40 @@
-import React from 'react'
 import './card.css'
-type Props = {}
+import useDrinks from '../../hooks/useDrinks';
 
-const Card = (props: Props) => {
-  return (
-    <main className='main-card'>
-      <span className='info-card'>
-        <header className='title-card'>Lorem ipsum dolor sit</header>
-        <span className='img-card'>
-        <img src="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" alt="Cocktail"
-        width="40px"
-        height="40px"
-        />
-      </span>
-        <p className='description-card'> 
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia corporis nostrum saepe. Optio expedita voluptate ratione aliquam. 
-        </p>
-        <footer>
-          <h6>contains % alcohol</h6>
-        </footer>
-      </span>
-    </main>
-  )
-}
+
+ const drinkArray = []
+
+
+
+const Card = () => {
+
+const {drinks} = useDrinks()
+
+return (
+  <main className='main-card'>
+    <span className='info-card'>
+       {drinks.map((drink) => (
+        <div >
+          <header className='title-card'>{drink.strDrink}</header>
+          <span className='img-card'>
+            <img
+              src={drink.strDrinkThumb} 
+              alt="Cocktail"
+              width="40px"
+              height="40px"
+            />
+          </span>
+        
+          <footer>
+            <h6>contains {drink.strAlcoholic}% alcohol</h6>
+          </footer>
+        </div>
+      ))} 
+    </span>
+  </main>
+);
+ 
+        }
+
 
 export default Card

@@ -2,10 +2,10 @@ import React from 'react'
 
 type Props = {}
 
-const All = (props: Props) => {
+const Random = (props: Props) => {
   return (
     <div>All</div>
   )
 }
 
-export default All
+export default Random

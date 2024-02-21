@@ -9,11 +9,7 @@ const Container = (props: Props) => {
   return (
     <main className='main-container'>
         <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
+        
       
 
         

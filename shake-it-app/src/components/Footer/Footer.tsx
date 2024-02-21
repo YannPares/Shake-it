@@ -9,6 +9,9 @@ function Footer() {
         <h6 className='credits'>
             &copy; 2024 <span>Made with ❤️ by <a href="https://linkedin.com/in/ian-pares" target="_blank" rel="noreferrer">Yann</a></span>
         </h6>
+        {/* <h6>
+          drink responsibly
+        </h6> */}
     </footer>
   )
 }

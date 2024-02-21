@@ -21,7 +21,7 @@ const Header = (props: Props) => {
           <Link to="/search">Search</Link>
         </span>
         <span className='navbar-links'>
-          <Link to="/all">All</Link>        
+          <Link to="/random">Random</Link>        
           </span>
         <span className='navbar-links'>
           <Link to="/add">Add</Link>
