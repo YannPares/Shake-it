@@ -3,10 +3,10 @@ import Card from '../Card/Card'
 
 import './container.css'
 
-type Props = {}
 
-const Container = (props: Props) => {
+const Container = () => {
   return (
+    <>
     <main className='main-container'>
         <Card/>
         
@@ -17,6 +17,7 @@ const Container = (props: Props) => {
 
 
     </main>
+    </>
   )
 }
 

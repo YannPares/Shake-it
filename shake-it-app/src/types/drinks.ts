@@ -4,6 +4,6 @@ export type drinks  = {
     category: string;
     ingredients: string[];
     measures: string[];
-    instructions: string;
+    strInstructions: string;
     strAlcoholic: string;
   }
