@@ -16,17 +16,7 @@ const Header = (props: Props) => {
         />
 
       </a>
-      <nav className='navbar'>
-        <span className='navbar-links'>
-          <Link to="/search">Search</Link>
-        </span>
-        <span className='navbar-links'>
-          <Link to="/random">Random</Link>        
-          </span>
-        <span className='navbar-links'>
-          <Link to="/add">Add</Link>
-        </span>
-      </nav>
+     
     </header>
   )
 }

@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './searchBar.css'
-type Props = {}
 
-const SearchBar = (props: Props) => {
+
+const SearchBar = () => {
   const [searchInput, setSearchInput] = useState("");
   const [searchResults, setSearchResults] = useState([]);
 

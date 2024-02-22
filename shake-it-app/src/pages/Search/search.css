@@ -1,9 +1,0 @@
-.page-container{
-    margin-top: 20vh;
-}
-
-@media (width >= 400px){
-    .page-container{
-        margin-top: 15vh;
-    }
-}

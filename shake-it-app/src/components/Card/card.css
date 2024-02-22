@@ -4,6 +4,11 @@
     height: 65vh;
     border: 1px solid black;
 }
+.img-card{
+    display: flex;
+    justify-content: center;
+  
+}
 
 @media (width >= 680px) {
     .main-card{

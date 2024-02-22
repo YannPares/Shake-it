@@ -9,15 +9,4 @@
     display: flex;
     justify-content: center;    
 }
-.navbar {
-    background-color: aqua;
-    display: flex;
-    justify-content: space-between;
-    padding: 1vh;
-    
-}
-
-.navbar-links{
-    margin: 0 10%;
-}
 

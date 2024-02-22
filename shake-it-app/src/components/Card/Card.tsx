@@ -3,12 +3,13 @@ import useDrinks from '../../hooks/useDrinks';
 
 
 const Card = () => {
-
-const {drinks} = useDrinks()
+const maxDrinks = 6;
+const {drinks} = useDrinks();
+const limitedDrinks = drinks.slice(0, maxDrinks);
 
 return (
   <>
-  {drinks && drinks.map((drink) => (
+  {limitedDrinks && limitedDrinks.map((drink) => (
     
   <main className='main-card'>
     <span className='info-card'>
@@ -19,10 +20,15 @@ return (
             <img
               src={drink.strDrinkThumb} 
               alt="Cocktail"
-              width="200vh"
-              height="200vh"
+              width="110vw"
+              height="120vh"
             />
           </span>
+          <p>Ingredients:</p>
+          <p>{drink.Ingredients}
+   
+            
+            </p>
           <p>{drink.strInstructions}</p>
         
           <footer>
